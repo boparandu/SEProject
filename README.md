@@ -1,1 +1,3 @@
-# SEProject first commit
+# SEProject
+
+First Commit

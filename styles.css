@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+@font-face {
+    font-family: "BIZUDPMincho-Regular";
+    src: url(Fonts/BIZUDPMincho-Regular.ttf) format(ttf);
+}
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #000;
+}
+
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #2a642a;
+    --border-radius: 4px;
+    --color-error: #cc3333;
+    --color-success: #4bb544;
+    font-size: 14px;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 16px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 4px solid #2a642a;
+    padding-bottom: 3px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 500 1rem 'Gideon Roman', cursive;
+}
+
+.main-nav {
+    padding-top: 30px;
+    padding-bottom: -50em;
+    text-align: right;
+    padding-right: 20px;
+    float: inline-end;
+    margin: auto;
+}
+
+.main-nav li {
+    padding: 0 .2%;
+}
+
+.nav button {
+    color: white;
+    text-decoration: none;
+    background-color: #2a642a;
+    padding: 5px 32px;
+    text-align: center;
+    display: inline-block flex;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: 500 1rem 'Gideon Roman', cursive;
+}
+
+.nav button:hover {
+    border-color: #d0dbcf;
+    cursor: pointer;
+}
+
+.main-header {
+    background-color: #d0dbcf;
+    background-size: cover;
+    height: 115px;
+}
+
+.app-name {
+    padding-top: 40px;
+    padding-left: 20px;
+    text-align: left;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Gideon Roman', cursive;
+    width: 20%;
+    float: left;
+    display: flex;
+}
+
+.container {
+    width: 400px;
+    max-width: 400px;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.container,
+.form-input,
+.form__button {
+    font-family: 500 1rem 'Gideon Roman', cursive;;
+}
+
+.form--hidden {
+    display: none;
+}
+
+.form > *:first-child {
+    margin-top: 0;
+}
+
+.form > *:last-child {
+    margin-top: 0;
+}
+
+.form__title {
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #d0dbcf;
+}
+
+.form__message-error{
+    color: var(--color-error);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form__message-success{
+    color: var(--color-success);
+}
+
+.form-input-group {
+    margin-bottom: 1rem;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px #d0dbcf;
+    outline: none;
+    background: #d0dbcf;
+    transition: backgroun 0.2s, border-color 0.2s;
+}
+
+.form-input:focus {
+    border-color: #2a642a;
+}
+
+.form__input-error{
+    color: var(--color-error);
+    border-color: red;
+}
+
+.form-input-error-message {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: var(--color-error);
+}
+
+.form__button {
+    width: 100%;
+    padding: .5rem 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background: #798877;
+    border: none;
+    border-radius: var(--border-radius);
+    color: #d0dbcf;
+    outline: none;
+    cursor: pointer;
+}
+
+.form__button:hover {
+    background: #5f725d;
+}
+
+.form__button:active {
+    transform: scale(0.98);
+}
+
+.form__text {
+    text-align: center;
+}
+
+.form__link {
+    color: #d0dbcf;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form__link:hover {
+    text-decoration: underline;
+}
+

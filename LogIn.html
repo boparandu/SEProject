@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MCIS | Log In</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <script src="main.js"></script>
+
+        <header class="main-header">
+            <h1 class="app-name">Mathematics, Computer, & Information Science</h1>
+            <nav class="nav main-nav">
+                <ul>
+                    <li><a href="Index.html">HOME</a></li>
+                    <li><a href="Schedule.html">SCHEDULE</a></li>
+                    <li><a href="Map.html">ACADEMIC MAP</a></li>
+                    <li><a href="LogIn.html">ACCOUNT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container">
+            <form class="form" id="login">
+                <h1 class="form__title">Login</h1>
+
+                <div class="form-message form__message-error"></div>
+
+                <div class="form-input-group">
+                    <input type="text" id="loginID" class="form-input" autofocus placeholder="School ID">
+                    <div class="form-input-error-message"></div>
+                </div>
+
+                <div class="form-input-group">
+                    <input type="password" class="form-input" autofocus placeholder="Password">
+                    <div class="form-input-error-message"></div>
+                </div>
+
+                <button class="form__button" type="submit">
+                    Continue
+                </button>
+
+                <p class="form__text">
+                    <a href="#" class="form__link">Forgot your password?</a>
+                </p>
+                
+                <p class="form__text">
+                    <a class="form__link" id="linkCreateAccount" href="#">Don't have an account? Create account</a>
+                </p>
+            </form>
+
+            <form class="form form--hidden" id="createAccount">
+                <h1 class="form__title">Create Account</h1>
+
+                <div class="form-message form-message-error"></div>
+                <div class="form-input-group">
+                    <input type="text" class="form-input" autofocus placeholder="Full Name">
+                    <div class="form-input-error-message"></div>
+                </div>
+
+                <div class="form-input-group">
+                    <input type="email" class="form-input" autofocus placeholder="MVSU Email">
+                    <div class="form-input-error-message"></div>
+                </div>
+
+                <div class="form-input-group">
+                    <input type="text" class="form-input" autofocus placeholder="School ID">
+                    <div class="form-input-error-message"></div>
+                </div>
+
+                <div class="form-input-group">
+                    <input type="text" class="form-input" autofocus placeholder="Classification">
+                    <div class="form-input-error-message"></div>
+                </div>
+
+                <div class="form-input-group">
+                    <input type="text" class="form-input" autofocus placeholder="School ID">
+                    <div class="form-input-error-message"></div>
+                </div>
+
+                <div class="form-input-group">
+                    <input type="password" class="form-input" autofocus placeholder="Password">
+                    <div class="form-input-error-message"></div>
+                </div>
+
+                <div class="form-input-group">
+                    <input type="password" class="form-input" autofocus placeholder="Confirm Password">
+                    <div class="form-input-error-message"></div>
+                </div>
+
+                <button class="form__button" type="submit">
+                    Continue
+                </button>
+
+                <p class="form__text">
+                    
+                </p>
+
+                <p class="form__text">
+                    <a href="#" class="form__link" id="linkLogin">Already have an account? Log in</a>
+                </p>
+            </form>
+        </div>
+    </body>
+</html>
